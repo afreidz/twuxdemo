@@ -4,6 +4,14 @@ html {
   height: 100%;
 }
 
+body {
+  @apply flex flex-col items-center justify-center;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sign-in-button {
+  @apply bg-branding-neutral-200 text-xs leading-[18px] py-5 px-4 rounded-md shrink;
+}
